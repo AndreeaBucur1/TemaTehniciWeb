@@ -1,0 +1,332 @@
+
+p
+{
+    color:purple;
+    position: relative;
+    top:5cm;
+    left:3.5cm;
+    width: 30cm;
+}
+h1{
+    color: purple;
+    position: relative;
+    top:4cm;
+    left:-3cm;
+}
+
+.box 
+{
+    border: 2px solid rgb(110, 122, 114);
+    position: relative;
+    top:7cm;
+    width: 30cm;
+    height: 5cm;
+    font-size: 0.8cm;
+    text-align: center;
+    left:1cm;
+    border-radius: 15px;
+    background-color: violet;
+    color:white;
+    margin: auto;
+    background: linear-gradient(rgb(168, 96, 168),rgb(102, 16, 102),rgb(201, 93, 201))
+
+}
+.box p{
+    position: relative;
+    top:1cm;
+    color:white;
+    left:1cm;
+    width: 26cm;
+   
+}
+.img{
+    transform: scale(0.5, 0.5);
+    float: right;
+    height: 5cm;
+    width: 12cm;
+    
+}
+.sedinta
+{
+    position: relative;
+    top:5cm;
+    left:-6cm;
+    color:purple;
+    font-weight: bold;
+    width: 30cm;
+    left:3.5cm;
+}
+
+button
+{
+    font-size: 1cm;
+    position: relative;
+    top: 3cm;
+    left:26cm;
+    background: linear-gradient(rgb(214, 180, 214),rgb(102, 16, 102),rgb(221, 110, 221))
+}
+
+.intro 
+{
+    
+    color:purple;
+    width: 30cm;
+    position: relative;
+    top:1cm;
+}
+
+h4{
+    color:purple;
+    position: relative;
+    top:5cm;
+    left: 3.6cm;
+    width: 20cm;
+}
+
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+    .img{
+        position: relative;
+        left:-2cm;
+        width: 480px;
+    }
+    p
+{
+    
+    position: relative;
+    top:5cm;
+    left:0cm;
+    width: 480px;
+}
+h1{
+    
+    position: relative;
+    width: 480px;
+    left:0;
+    top:2cm;
+    
+}
+button
+{
+    font-size: 1cm;
+    position: relative;
+    top: 6cm;
+    left:0;
+    
+}
+.sedinta
+{
+    position: relative;
+    top:5cm;
+    left:-6cm;
+    width: 480px;
+    left:0;
+
+}
+
+.intro 
+{
+    
+    width: 480px;
+    position: relative;
+    top:1cm;
+    left:0;
+}
+
+h4{
+    
+    position: relative;
+    top:5cm;
+    left: 0;
+    width: 480px;
+}
+
+.box 
+{
+    
+    position: relative;
+    top:7cm;
+    width: 480px;
+    height: 8cm;
+    
+    left:0;
+    border-radius: 15px;
+    background-color: violet;
+    color:white;
+    margin: auto;
+    background: linear-gradient(rgb(168, 96, 168),rgb(102, 16, 102),rgb(201, 93, 201))
+
+}
+.box p{
+    position: relative;
+    top:1cm;
+    color:white;
+    left:1cm;
+    width: 440px;
+   
+}
+
+     
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+    .img{
+        position: relative;
+        left:-2cm;
+        width: 480px;
+    }
+    p
+{
+    
+    position: relative;
+    top:5cm;
+    left:0cm;
+    width: 480px;
+}
+h1{
+    
+    position: relative;
+    width: 480px;
+    left:0;
+    top:2cm;
+    
+}
+button
+{
+    font-size: 1cm;
+    position: relative;
+    top: 6cm;
+    left:0;
+    
+}
+.sedinta
+{
+    position: relative;
+    top:5cm;
+    left:-6cm;
+    width: 450px;
+    left:0;
+
+}
+
+.intro 
+{
+    
+    width: 460px;
+    position: relative;
+    top:1cm;
+    left:0;
+}
+
+h4{
+    
+    position: relative;
+    top:5cm;
+    left: 0;
+    width: 460px;
+}
+
+.box 
+{
+    
+    position: relative;
+    top:7cm;
+    width: 460px;
+    height: 8cm; 
+    left:0;
+}
+.box p{
+    position: relative;
+    top:1cm;
+    color:white;
+    left:0cm;
+    width: 420px;
+   
+}
+
+     
+
+}
+
+
+@media (max-width: 481px)
+{
+    .img{
+     display: none;
+    }
+    p
+{
+    
+    position: relative;
+    top:5cm;
+    left:0cm;
+    width: 450px;
+}
+h1{
+    
+    position: relative;
+    width: 450px;
+    left:0;
+    top:2cm;
+    
+}
+button
+{
+    font-size: 1cm;
+    position: relative;
+    top: 6cm;
+    left:0;
+    
+}
+.sedinta
+{
+    position: relative;
+    top:5cm;
+    left:-6cm;
+    width: 450px;
+    left:0;
+
+}
+
+.intro 
+{
+    
+    width: 450px;
+    position: relative;
+    top:1cm;
+    left:0;
+}
+
+h4{
+    
+    position: relative;
+    top:5cm;
+    left: 0;
+    width: 460px;
+}
+
+.box 
+{
+    
+    position: relative;
+    top:7cm;
+    width: 450px;
+    height: 8cm; 
+    left:0;
+}
+.box p{
+    position: relative;
+    top:1cm;
+    color:white;
+    left:0cm;
+    width: 400px;
+   
+}
+
+     
+
+}

@@ -1,0 +1,308 @@
+
+#img
+{
+    position: relative;
+    left:-4cm;
+    top:2cm;
+    
+}
+
+.intro p
+{
+    color:rgb(34, 10, 34);
+    position: relative;
+    left:8cm;
+    top:-3cm;
+    font-size: 1cm;
+    width: 30cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro1 p
+{
+    color:rgb(39, 11, 39);
+    position: relative;
+    left:14.7cm;
+    top:-3cm;
+    font-size: 0.5cm;
+    width: 25cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.anim{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(231, 90, 231);
+    position: relative;
+    animation-name: anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size:1cm;
+   text-align:center;
+   padding-top:0.3cm;
+   border-radius:35px;
+    
+  }
+  .anim a
+  {
+    text-decoration: none;
+    color:wheat;
+  }
+  
+  @keyframes anim {
+    0%   {background-color:rgb(134, 26, 134); left:0px; top:0px;}
+    25%  {background-color:rgb(175, 53, 175); left:230px; top:0px;}
+    50%  {background-color:rgb(94, 19, 94); left:40px; top:0px;}
+  }
+
+  #paragraf
+  {
+    color:rgb(39, 11, 39);
+    position: relative;
+    left:14.7cm;
+    top:-4cm;
+    font-size: 0.5cm;
+    width: 25cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .paragraf
+  {
+    color:rgb(39, 11, 39);
+    position: relative;
+    left:5cm;
+    top:-2cm;
+    font-size: 35px;
+    width: 35cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .paragraf 
+  {
+    color:rgb(39, 11, 39);
+    position: relative;
+    
+    
+    font-size: 30px;
+    width: 35cm;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+audio 
+{
+    position: relative;
+    left:6cm;
+    top:-1cm;
+    
+}
+.paragraf1 h6
+{
+    position: relative;
+    left:5cm;
+    width:25cm;
+    font-size: 30px;
+    
+}
+ol
+{
+    position: relative;
+    left:6cm;
+    font-size:20px;
+    width: 30cm;
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+    #img
+{
+    position: relative;
+    left:1cm;
+    top:2cm;
+    width: 475px;
+    
+    
+}
+.intro p
+{
+    
+    position: relative;
+    left:3cm;
+    top:2.5cm;
+    font-size: 1cm;
+    width: 370px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro1 p
+{
+  
+    position: relative;
+    left:0;
+    top:2.5cm;
+    font-size: 0.5cm;
+    width: 475px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anim{
+   visibility: collapse;
+  }
+
+  #paragraf
+  {
+    
+    position: relative;
+    left:0;
+    top:1cm;
+    width: 475px;
+   
+  }
+
+  .paragraf
+  {
+    
+    position: relative;
+    left:0;
+    top:2cm;
+    width: 475px;
+    font-size: 15px;
+    
+  }
+  .paragraf 
+  {
+    color:rgb(39, 11, 39);
+    position: relative;
+    
+    
+    font-size: 30px;
+    width: 475px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+audio 
+{
+    position: relative;
+    left:1cm;
+    top:3cm;
+    width: 4cm;
+    
+}
+.paragraf1 h6
+{
+    position: relative;
+    left:0;
+    width:475px;
+    top:5cm;
+    font-size: 20px;
+    
+}
+ol
+{
+    position: relative;
+    left:1cm;
+    font-size:15px;
+    width: 400px;
+    top:5cm;
+    
+}
+
+}
+
+@media  (max-width: 480px)
+{
+    #img
+{
+    position: relative;
+    left:1cm;
+    top:2cm;
+    width: 470px;
+    
+    
+}
+.intro p
+{
+    
+    position: relative;
+    left:1cm;
+    top:2.5cm;
+    font-size: 1cm;
+    width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro1 p
+{
+  
+    position: relative;
+    left:0;
+    top:2.5cm;
+    font-size: 0.5cm;
+    width: 455px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.anim{
+   visibility: collapse;
+  }
+
+  #paragraf
+  {
+    
+    position: relative;
+    left:0;
+    top:1cm;
+    width: 455px;
+   
+  }
+
+  .paragraf
+  {
+    
+    position: relative;
+    left:0;
+    top:2cm;
+    width: 455px;
+    font-size: 15px;
+    
+  }
+  .paragraf 
+  {
+    color:rgb(39, 11, 39);
+    position: relative;
+    
+    
+    font-size: 30px;
+    width: 455px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+
+audio 
+{
+    position: relative;
+    left:1cm;
+    top:3cm;
+    width: 4cm;
+    
+}
+.paragraf1 h6
+{
+    position: relative;
+    left:1cm;
+    width:440px;
+    top:5cm;
+    font-size: 20px;
+    
+}
+ol
+{
+    position: relative;
+    left:1cm;
+    font-size:15px;
+    width: 400px;
+    top:5cm;
+    
+}
+
+}

@@ -1,0 +1,282 @@
+
+
+#image1{
+  position: relative;
+  
+  top:8vw;
+  left:-10em;
+}
+
+
+
+.content{
+  position: relative;
+  width: 40vw;
+  height: 1cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:-5rem;
+  left: 45em;
+  
+}
+.slider-wrapper{
+  
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: flex;
+  
+
+}
+
+
+
+.slider{
+  height: 50px;
+  padding-left: 25px;
+  overflow: hidden;
+}
+.slider div{
+  color:#fff;
+  height: 50px;
+  margin-bottom: 50px;
+  padding: 2px 15px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.slider-text1
+{
+  background: purple;
+  animation:slide 5s linear infinite;
+  font-size: 1cm;
+}
+.slider-text2
+{
+  background: rgb(185, 53, 185);
+  font-size: 1cm;
+  
+}
+.slider-text3
+{
+  background: rgb(134, 73, 119);
+  font-size: 1cm;
+}
+
+@keyframes slide{
+  0% {margin-top:-300px;}
+  5% {margin-top:-200px;}
+  33% {margin-top:-200px;}
+  38% {margin-top:-100px;}
+  66% {margin-top:-100px;}
+  71% {margin-top:0px;}
+  100%{margin-top:0px;}
+}
+
+
+#intro {
+  width:35cm;
+  position: relative;
+  top:3cm;
+  left:3cm;
+  color:purple;
+  height: 500px;
+}
+#intro h1::before{content:'\220E';}
+#intro h1{
+  color: rgb(46, 41, 41);
+}
+#gimnaziu{
+  border-radius: 25px;
+  background:rgb(46, 41, 41);
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  left:10cm;
+
+  color:white;
+}
+#liceu{
+  border-radius: 25px;
+  background: rgb(46, 41, 41);
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+  font-size: xx-large;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top:0;
+  left:15cm;
+  color:white;
+
+}
+.meditatii a{
+  text-decoration: none;
+}
+
+@media (min-width: 481px) and (max-width: 767px)
+{
+  #image1{
+    position: relative;
+    left:0.1cm;
+    width: 481px;
+  }
+  .button {
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: purple;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    left:3.5cm;
+    top:-3vh;
+  }
+  .slider-text1
+{
+  background: purple;
+  animation:slide 5s linear infinite;
+  font-size: 0.5cm;
+}
+.slider-text2
+{
+  background: rgb(185, 53, 185);
+  font-size: 0.5cm;
+  
+  
+}
+.slider-text3
+{
+  background: rgb(134, 73, 119);
+  font-size: 0.5cm;
+}
+.slider div{
+  color:#fff;
+  
+  box-sizing: border-box;
+  border-radius: 15px;
+
+}
+.content
+{
+  position: relative;
+  left:4cm;
+  top:3cm;
+  width: 30vw;
+  height: 2vh;
+  display: flex;
+  
+}
+#intro {
+  width:481px;
+  position: relative;
+  top:3cm;
+  left:0;
+  color:purple;
+  height: 500px;
+}
+#gimnaziu{
+  
+  position: relative;
+  left:0;
+  top:8cm;
+  
+}
+#liceu{
+  
+  position: relative;
+  top:5cm;
+  left:-4.75cm;
+  color:white;
+
+}
+
+}
+
+
+
+@media (max-width: 480px)
+{
+  #image1{
+    position: relative;
+    left:-2cm;
+    width: 440px;
+    transform: scale(0.6,0.6);
+  }
+  .button {
+    position: relative;
+
+    left:0;
+    top:-0.2cm;
+  }
+  .slider-text1
+{
+  background: purple;
+  animation:slide 5s linear infinite;
+  font-size: 0.4cm;
+}
+.slider-text2
+{
+  background: rgb(185, 53, 185);
+  font-size: 0.4cm;
+  
+  
+}
+.slider-text3
+{
+  background: rgb(134, 73, 119);
+  font-size: 0.4cm;
+}
+.slider div{
+  color:#fff;
+  
+  box-sizing: border-box;
+  border-radius: 15px;
+
+}
+.content
+{
+  position: relative;
+  left:-2cm;
+  top:3cm;
+  width: 400px;
+  height: 2vh;
+  display: flex;
+  
+}
+#intro {
+  width:430px;
+  position: relative;
+  top:3cm;
+  left:0;
+  
+}
+#gimnaziu{
+  
+  position: relative;
+  left:0;
+  top:10cm;
+  
+}
+#liceu{
+  
+  position: relative;
+  top:7cm;
+  left:-4.75cm;
+  color:white;
+
+}
+
+}

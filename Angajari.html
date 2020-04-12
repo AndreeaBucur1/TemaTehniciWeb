@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Angajari</title>
+    <link rel="stylesheet" href="Angajari.css">
+    <link rel="stylesheet" href="StilGeneral.css">
+    <link rel="shortcut icon" type="image/png" href="image.logo.png">
+    
+
+</head>
+<body>
+    <nav>
+        
+        <div class="menu">
+
+            <ul>
+                <li><a href="Acasa.html">Acasa</a></li>
+                <li><a href="Desprenoi.html">Despre noi</a></li>
+               
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="#">Meditatii</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="Preturi.html">Preturi</a></li>
+                            <li><a href="Meditatiigimnaziu.html">Meditatii gimnaziu</a></li>
+                            <li><a href="MeditatiiLiceu.html">Meditatii liceu</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="Angajari.html">Angajari</a></li>
+              </ul>
+        </div>
+    </nav>
+    <div class="logo">
+        <img src="image.logo.png" alt="not found">
+    </div>  
+    
+  
+    
+    <div class="container">
+        <h1 id="mesaj"> Formular angajare</h1>
+        <br>
+        <form action="/action_page.php">
+          <label for="fname">Prenume</label>
+          <input type="text" id="fname" name="firstname" placeholder="Prenume..">
+      
+          <label for="lname">Nume</label>
+          <input type="text" id="lname" name="lastname" placeholder="Nume..">
+      
+          <label for="phone">Telefon</label>
+          <br>
+            <input type="number" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="email">Adresa de Email</label>
+            <input type="text" id="email" name="email">
+
+            <label for="materie">Materie</label>
+          <input type="text" id="materie" name="materie">
+
+            <label for="subject">Ce te motivează să lucrezi cu elevii? </label>
+        <textarea id="subject" name="subject" style="height:100px"></textarea>
+        
+        <label for="subject">Trimiteti-ne CV-ul dvs</label><br><br>
+        <input type="file" name="cv">
+            
+       <br><br>
+       
+         <input type="button" onclick="alert('Formular trimis')" value="Trimite formular">
+        
+        </form>
+      </div>
+      <p>
+          Daca vreti sa va alaturati echipei EasyLearn, completati urmatorul formular de angajare, iar noi va vom contacta in cel mai 
+          scurt timp posibil.
+          <br><br>
+          Este necesar sa aveti modulul psihopedagogic absolvit sau in curs.
+      </p>
+      
+</body>

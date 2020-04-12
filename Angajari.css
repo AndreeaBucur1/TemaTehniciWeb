@@ -1,0 +1,102 @@
+
+
+
+
+* {box-sizing: border-box;}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  
+
+  input[type=button] {
+    background-color: rgb(122, 4, 107);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+    left:40%;
+  }
+  
+  input[type=button]:hover {
+    background-color: #ab39b6;
+  }
+  
+  .container {
+    border-radius: 15px;
+    background-color: #e1dce2;
+    padding: 20px;
+    width:20cm;
+    position: relative;
+    
+    top:3cm;
+    float:right;
+    
+    
+  }
+  p{
+      font-size: 25px;
+      color:purple;
+      position: relative;
+      width: 25cm;
+     top:6cm;
+     left:-5cm;
+  }
+
+  @media (min-width: 481px) and (max-width: 767px)
+  {
+    .container {
+    
+        width:470px;
+        position: relative;
+        top:9cm;
+        left:0;
+        float: left;
+      }
+      p{
+        font-size: 25px;
+        color:purple;
+        position: relative;
+         width:  475px;
+         top:-18cm;
+        left:0;
+        height: 5cm;
+    }
+
+  }
+
+    @media only screen and (max-width: 480px) 
+    {
+        .container {
+    
+            width:450px;
+            position: relative;
+            top:9cm;
+            left:0;
+            float: left;
+          }
+          p{
+            font-size: 25px;
+            color:purple;
+            position: relative;
+             width:  455px;
+             top:-18cm;
+            left:0;
+            height: 5cm;
+        }
+    
+        
+    }
+     
+  
+  
+ 

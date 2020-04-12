@@ -1,0 +1,170 @@
+.col
+{   
+    color:rgb(68, 6, 68);
+}
+h2::before{content:'\25BA';}
+h5::before{content:'\2713'}
+
+
+
+
+.despre{
+    color:rgba(24, 23, 23, 0.952);
+    
+   
+}
+
+.graduation
+{
+    position: relative;
+    top:5vh;
+    left:15vh;
+    width: 30cm;
+}
+
+.container
+{
+    position: relative;
+    top:5vw;
+}
+
+.graduation h1
+{
+    position: relative;
+    color:white;
+    top:-10vh;
+    left:9em;
+    width: 15cm;
+}
+p{
+    position: relative;
+    width: 35cm;
+    left:4cm;
+    font-weight: bold;
+}
+
+h6{
+    position: relative;
+    width: 20cm;
+    left: 4cm;
+    color:rgb(0, 0, 0);
+}
+
+  .final{
+   
+    font-family: 'Pacifico', cursive;
+    font-size: large;
+    color:rgb(36, 34, 34);
+  }
+
+ .call{
+    width: 100px;
+    height: 55px;
+    background: rgb(103, 0, 172);
+    transition: width 2s;
+    position: relative;
+    top:-15vh;
+    border-radius: 15px;
+    left:25cm;
+    font-size: 0.5cm;
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  
+  .call:hover {
+    width: 300px;
+  }
+  .call span a{
+      text-decoration: none;
+      color: whitesmoke;
+  }
+ 
+  @media (min-width: 481px) and (max-width: 767px)
+  {
+    .graduation{
+     transform: scale(0.5, 0.7);
+     position: relative;
+     left:-2.2cm;
+     width: 480px;
+    }
+    .graduation h1{
+        position: relative;
+        left:3.5cm;
+    }
+    p{
+        position: relative;
+        width: 480px;
+        left:0;
+        font-weight: bold;
+    }
+    
+    h6{
+        position: relative;
+        width: 481px;
+        left: 0;
+        color:rgb(0, 0, 0);
+    }
+    
+      .final{
+       
+        font-family: 'Pacifico', cursive;
+        font-size: large;
+        color:rgb(36, 34, 34);
+        width: 200px;
+      }
+      .call{
+        position: relative;
+        width:100px;
+        left:5cm;
+        top:-2.5cm;
+        font-size: 0.5cm;
+        text-align: center;
+        font-weight: bold;
+        
+      }
+}
+
+@media (max-width: 481px)
+{
+  .graduation{
+   transform: scale(0.5, 0.5);
+   position: relative;
+   left:-3cm;
+   width: 480px;
+  }
+  .graduation h1{
+      position: relative;
+      left:3.5cm;
+  }
+  p{
+      position: relative;
+      width: 450px;
+      left:0;
+  }
+  
+  h6{
+      position: relative;
+      width: 450px;
+      left: 0;
+      color:rgb(0, 0, 0);
+  }
+  
+    .final{
+     
+      font-family: 'Pacifico', cursive;
+      font-size: large;
+      color:rgb(36, 34, 34);
+      width: 200px;
+    }
+    .call{
+      position: relative;
+      width:100px;
+      left:5cm;
+      top:-2.5cm;
+      font-size: 0.5cm;
+      text-align: center;
+      font-weight: bold;
+      
+    }
+}

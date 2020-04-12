@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="StilGeneral.css">
+    <link rel="shortcut icon" type="image/png" href="image.logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+</head>
+
+
+<body>
+  <nav>
+        
+    <div class="menu">
+
+        <ul>
+            <li><a href="Acasa.html">Acasa</a></li>
+            <li><a href="Desprenoi.html">Despre noi</a></li>
+           
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="#">Meditatii</a>
+                <div class="dropdown">
+                    <ul>
+                        <li><a href="Preturi.html">Preturi</a></li>
+                        <li><a href="Meditatiigimnaziu.html">Meditatii gimnaziu</a></li>
+                        <li><a href="MeditatiiLiceu.html">Meditatii liceu</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="Angajari.html">Angajari</a></li>
+          </ul>
+    </div>
+</nav>
+    <div class="logo">
+        <img src="image.logo.png" alt="not found">
+    </div>   
+
+    <br><br>
+    <div class="grid-container">
+        <div class="item1">0731223232</div>
+         
+       <div class="item4">contact@easylearn.ro</div>
+        <div class="item4">Str. Muzelor nr 45,sector 4,Bucuresti</div> 
+      </div>
+
+    
+    <br>
+    <div id="fb">
+      <a href="#" class="fa fa-facebook"></a>
+    </div>
+    
+    
+    <div class="container">
+        <h1 id="mesaj">Trimiteti-ne un mesaj!</h1>
+        <br>
+        <form action="/action_page.php">
+          <label for="fname">Prenume</label>
+          <input type="text" id="fname" name="firstname" placeholder="Prenume..">
+      
+          <label for="lname">Nume</label>
+          <input type="text" id="lname" name="lastname" placeholder="Nume..">
+      
+          <label for="subject">Meditatii pentru</label>
+          <select id="Meditatii" name="Meditatii">
+              <option value="-">-</option>
+            <option value="gimnaziu">Gimnaziu</option>
+            <option value="liceu">Liceu</option>
+            
+          </select>
+          <label for="Clasa">Clasa</label>
+          <select id="Clasa" name="Clasa">
+            <option value="">Alegeti clasa</option>
+        
+            <option value="">V</option>
+            <option value="">VI</option>
+            <option value="">VII</option>
+            <option value="">VIII</option>
+            <option value="">IX</option>
+            <option value="">X</option>
+            <option value="">XI</option>
+            <option value="">XII</option>
+            
+            
+          </select>
+          <label for="lname">Profil</label>
+          <input type="text" id="profil" name="profil" placeholder="Completati daca este cazul">
+      
+          <label for="phone">Telefon</label>
+          <br>
+            <input type="number" id="phone" name="phone">
+
+            <br><br>
+
+            <label for="email">Adresa de Email</label>
+            <input type="text" id="email" name="email">
+
+            <label for="subject">Mesaj</label>
+        <textarea id="subject" name="subject" style="height:200px"></textarea>
+        
+            
+       <br><br>
+       
+         <input type="button" onclick="alert('Formular trimis')" value="Trimite formular">
+        
+        </form>
+      </div>
+</body>
+</html>
